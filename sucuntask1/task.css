@@ -1,0 +1,382 @@
+/*absolute无这句话，div上留白10px，两边有外边距，relative无这句话，留白20px，两边有外边距*/
+.ac{
+	position:absolute;
+	top:0px;
+	left:0px;
+    width:100%;
+	height:80px;
+	background-color:#800080;
+}
+
+
+.t0{
+	
+	margin:auto ;
+	width:980px;
+	height:80px;
+
+}
+.ab{
+	position:absolute;
+	bottom:5px;
+	right:0px;
+}
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+li
+{
+float:right;
+padding-right:28px;
+font-family:'宋体';
+font-size:14px;
+color:white;
+
+
+}
+.aa{
+	position:absolute;
+	right:10px;
+	bottom:0px;
+}
+.n1{
+	position:absolute;
+    left:0;
+	top:80px;
+	height:520px;
+	width:100%;
+	}
+
+
+.n2{
+	position:absolute;
+	height:520px;
+	left:20px;
+	top:300px;
+}
+.n3{
+	position:absolute;
+	height:520px;
+	right:20px;
+	top:300px;
+}
+div.transbox
+{
+  position:absolute;
+  width: 320px;
+  height: 150px;
+  top:450px;
+  left:845px;
+  
+
+  /*background-color: #ffffff;*/
+  background: -webkit-linear-gradient(top,rgba(255,255,255,0.3)0%,rgba(255,255,255,0.2)75%,rgba(255,255,255,0)100%);
+    
+    
+}
+div.transbox h1
+{
+padding:10px 10px 2px 265px;
+font-size: 16px;
+color:white;
+margin:0px;
+}
+div.transbox p
+{
+  margin:0px;
+  text-indent:2em; 
+  padding: 10px 10px 30px 10px;
+  line-height:150%;
+  font-size: 12px;
+  color:white;
+}
+.m1
+{
+	position:absolute;
+	left:0px;
+	top:600px;
+	height:480px;
+	width:100%;
+	background-color: #D3D3D3;
+}
+.m2{
+	position:relative;
+	margin:auto;
+	width:980px;
+	height:360px;
+}
+.m3
+{
+position:absolute;
+top:10px;
+background-color: white;
+width:320px;
+min-height:360px;
+}
+.i1
+{
+	padding:10px;/*margin效果一样，加边框就很明显了*/
+}
+.m4
+{
+position:absolute;
+left:330px;
+top:10px;
+background-color: white;
+width:320px;
+min-height:360px ;
+}
+
+.m5
+{
+position:absolute;
+left:660px;
+top:10px;
+background-color: white;
+width:320px;
+min-height:360px ;
+}
+p.a
+{
+ margin:0px;
+ font-size: 12px;
+ line-height: 170%;
+ padding:5px 30px 25px 30px;
+ text-indent:2em; 
+}
+.e1
+{
+	position:absolute;
+	left:0;
+	top:1080px;
+	height:520px;
+	width:100%;
+	background-color: white;
+}
+.e2
+{
+	position:relative;
+	top:-50px;
+	margin: auto;
+	width:160px;
+	height:160px;
+
+	
+}
+.i2
+{  
+	position:relative;
+	border-radius:50% ;
+	width:160px;
+	height:160px;
+	margin:0;
+}
+p.b
+{
+	text-align: center;
+	color:black;
+	font-size: 20px;
+	font-family: "Century Gothic";
+	margin:0;
+}
+.cc
+{   position:relative;
+	margin: auto;
+	font-size: 14px;
+	color: black;
+	width:600px;
+	line-height: 190%;
+	padding:40px;
+	text-indent:2em; 
+}
+.f1
+{
+	position: absolute;
+	top:1600px;
+	left:0px;
+	background-color: black;
+	width:100%;
+	height: 395px;
+}
+.f2
+{
+	position: relative;
+	margin:auto;
+	height: 20px;
+	width:200px;
+    padding: 10px 10px 0px 10px ;
+    
+}
+
+.f2 ul
+{
+position:absolute;
+list-style-type:none;
+margin:0;
+padding:0;
+
+}
+.f2 li
+{
+	display: inline;
+padding-right:25px;
+font-size:12px;
+color:white;
+padding-bottom: 0px;
+}
+hr
+{
+	margin:0;
+}
+.f3
+{
+	position: relative;
+	margin: auto;
+	width:875px;
+	height:363px;
+}
+.f4
+{
+	position:absolute;
+	left:0px;
+	
+    height: 250px;
+    width:150px;
+   
+}
+p.h1
+{   
+	margin: 0px;
+	padding: 35px 20px 20px 30px;
+	font-size:12px;
+	color:white;
+	
+}
+ul.g1 
+{
+position:absolute;
+list-style-type:none;
+margin:0;
+padding:10px;
+width: 120px;
+height: 150px;
+
+}
+li.g2
+{   
+	padding-bottom: 10px;
+	color:white;
+	font-size: 12px;
+}
+a.g3
+{
+display:block;
+width:70px;
+}
+a:link,a:visited
+{
+color:#FFFFFF;
+text-transform:uppercase;
+text-decoration:none;
+}
+a:hover,a:active
+{
+text-decoration:underline;
+}
+.f5
+{
+	position:absolute;
+	margin:0;
+	left:175px;
+    height: 220px;
+    width:150px;
+    
+}
+
+.f6
+{
+	position:absolute;
+	margin:0;
+	left:350px;
+    height: 220px;
+    width:150px;
+   
+}
+
+.f7
+{
+	position:absolute;
+	margin:0;
+	left: 525px;
+    height: 220px;
+    width:150px;
+    
+}
+
+.f8
+{
+	position:absolute;
+	margin:0;
+	left: 700px;
+    height: 220px;
+    width:150px;
+   
+}
+p.dd
+{   
+	position: relative;
+	top: 293px;
+	margin: 0;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	
+}
+.i3
+{
+	position:absolute;
+	bottom:0px;
+	left:420px;
+	
+}
+
+
+/*
+#t1{
+	
+	position:absolute;
+	left:800px;
+	top:75px;/*为0时在div下
+
+	font-family:'宋体';
+	font-size:14px;
+	color: white;
+
+}
+#t2{
+	position:absolute;
+	left:856px;
+	top:75px;
+	font-family:'宋体';
+	font-size:14px;
+	color: white;
+}
+#t3{
+	position:absolute;
+	left:912px;
+	top:75px;
+	font-family:'宋体';
+	font-size:14px;
+	color: white;
+}
+#t4{
+	position:absolute;
+	left:968px;
+	top:75px;
+	font-family:'宋体';
+	font-size:14px;
+	color: white;
+}*/
